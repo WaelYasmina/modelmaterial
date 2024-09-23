@@ -40,14 +40,14 @@ directionalLight.position.set(10, 11, 7);
 const gui = new dat.GUI();
 
 const options = {
-    'Main': 0x2F3130,
-    'Main light': 0x7C7C7C,
-    'Main dark': 0x0A0A0A,
-    'Hooves': 0x0F0B0D,
-    'Hair': 0x0A0A0A,
-    'Muzzle': 0x0B0804,
-    'Eye dark': 0x020202,
-    'Eye white': 0xBEBEBE
+    Main: 0x787a79,
+  'Main light': 0xb9b9b9,
+  'Main dark': 0x383838,
+  Hooves: 0x46423c,
+  Hair: 0x383838,
+  Muzzle: 0x3d3426,
+  'Eye dark': 0x181818,
+  'Eye white': 0xe0e0e0,
 }
 
 const assetLoader = new GLTFLoader();
